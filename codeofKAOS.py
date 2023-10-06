@@ -1,291 +1,43 @@
-from time import sleep
-from colorama import init, Fore, Back, Style
+import random
 import os
 
-# aqui começa a brincadeiraKKKKKKKKKKKK by GENIUS HACKER KRLH O MAIS BRABOOOOO
-while True:
-    sleep(3)
-    def clear_console():
-        os.system('cls' if os.name=='nt' else 'clear')
-    clear_console()
-    print(Fore.LIGHTRED_EX+"---------------------------------------------------------")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠒⠋⠉⠉⠉⠉⠉⠙⠒⠦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠁⠀⠀⠀⣀⣀⣠⠤⠤⠤⠤⠤⣄⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡥⠴⠒⠊⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠀⡀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣷⣤⣀⠈⡆⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⣸⣿⣿⣶⣤⡀⠀⣴⣿⡟⢉⠀⠀⠀⠉⠀⢸⡀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠁⠀⢀⣩⡛⢿⠉⡍⠛⣷⣾⣿⣷⢤⠴⠷⢄⣇⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡧⢰⣿⣿⣿⠇⠀⣷⠀⠉⠉⠉⠉⠀⠀⠀⠸⢿⠥⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⢀⠀⢹⣦⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀⠀⢀⡀⢠⡀⢛⣁⣬⠆⠉⠉⣱⡿⡍⠀⢸⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣇⢺⣧⣀⣈⣿⣿⣿⣷⣤⣴⣶⡿⣻⠁⠀⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡎⢿⠛⠛⠛⣿⣾⣏⣩⠍⠀⡸⠃⠀⣰⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢮⡳⡌⠉⠻⣿⡿⠀⠀⠼⠁⢠⠞⡟⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⢄⠀⠀⣿⣿⠀⠀⢀⡜⠁⠚⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠈⠻⣗⠦⠽⠿⠤⠞⠁⠀⠀⠀⠀⣿⢷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠞⠁⣇⠀⠀⠈⠳⢄⡀⠀⠀⠀⠀⠀⠀⢀⡟⢸⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⠀⠀⠀⠀⢀⣀⡠⠤⠖⠒⠋⠉⡇⠀⠀⢹⡀⠀⠀⠀⠀⠙⠲⢤⡀⠀⢀⡴⠋⠀⢀⡇⠉⠲⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⠀⣠⠤⠒⠋⠉⠀⠀⠀⠀⠀⠀⢰⣧⠀⠀⠈⣧⠀⠀⠀⠀⠀⠀⠀⡹⠓⠋⠲⡄⠀⠈⣧⠀⠀⠸⡍⠙⠲⠤⣄⣀⠀⠀⠀⠀⠀")
-    print(Fore.WHITE + "⡞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡿⠀⠀⠀⢻⡳⣄⠀⠀⠀⣠⠞⠀⠀⠀⠀⠘⣆⠀⣾⡄⠀⠀⠹⡄⠀⠀⠀⠈⠉⠒⢤⡀⠀")
-    print(Fore.WHITE + "⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡇⠀⠀⠀⠈⣇⠈⢣⡀⣰⢳⡀⠀⠀⠀⢀⡞⠉⠶⠁⢧⠀⠀⠀⢱⡀⠀⠀⠀⠀⠀⠀⢧⠀")
-    print(Fore.WHITE + "⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀⠀⠀⢸⡀⠀⠙⠇⠀⢹⠒⠒⠒⢯⠀⠀⠀⠀⢸⡀⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠘⣆")
-    print(Fore.WHITE + "⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠂⠀⠀⠸⠇⠀⠀⠀⠀⠟⠀⠀⠀⠈⠧⠀⠀⠀⠘⠇⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠻")
-    print(Fore.WHITE + "⠀⠀⠀⠁⠁⠀⠁⠀⠀⠀⠀⠈⠀⠀⠀⠈⠉⠉⠋⠉⠉⠉⠉⠁⠉⠉⠀⠉⠈⠁⠉⠉⠛⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠀⠈⠀⠀")
-    print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-    print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-    print(Fore.YELLOW + "Versão 1.0⚡️")
-    print("")
-    print(Fore.WHITE + "Selecione uma ",Fore.BLUE + "opção.")
-    print(Fore.GREEN + "[",Fore.WHITE + "1",Fore.GREEN + "]", " ",Fore.CYAN + "<",Fore.RED + "Banir",Fore.GREEN + "WhatsApp",Fore.CYAN + ">")
-    print(Fore.GREEN + "[",Fore.WHITE + "2",Fore.GREEN + "]", " ",Fore.CYAN + "<",Fore.RED + "Banir",Fore.LIGHTRED_EX + "InstaGram",Fore.CYAN + ">")
-    print(Fore.GREEN + "[",Fore.WHITE + "3",Fore.GREEN + "]", " ",Fore.CYAN + "<",Fore.LIGHTGREEN_EX + "Créditos",Fore.CYAN + ">")
-    print(Fore.GREEN + "[",Fore.WHITE + "0",Fore.GREEN + "]", " ",Fore.CYAN + "<",Fore.RED + "Sair",Fore.CYAN + ">")
-
-    opcao = input("Digite a opção desejada: ")
-
-    if opcao == "1":
-        clear_console()
-        print(Fore.LIGHTGREEN_EX+"──▄▄█▀▀▀▀▀█▄▄──")
-        print(Fore.LIGHTGREEN_EX+"▄█▀░░▄▄░░░░░▀█▄")
-        print(Fore.LIGHTGREEN_EX+"█░░░███░░░░░░░█")
-        print(Fore.LIGHTGREEN_EX+"█░░░██▄░░░░░░░█")
-        print(Fore.LIGHTGREEN_EX+"█░░░░▀██▄░██░░█")
-        print(Fore.LIGHTGREEN_EX+"█░░░░░░▀███▀░░█")
-        print(Fore.LIGHTGREEN_EX+"▀█▄░░░░░░░░░▄█▀")
-        print(Fore.LIGHTGREEN_EX+"─▄█░░░▄▄▄▄█▀▀──")
-        print(Fore.LIGHTGREEN_EX+"─█░░▄█▀────────")
-        print(Fore.LIGHTGREEN_EX+"─▀▀▀▀──────────")
-        print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-        print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-        
-        print(Fore.YELLOW + "Versão 1.0⚡️")
-        print("")
-        print(Fore.LIGHTBLUE_EX+"Como usar:")
-        print(Fore.WHITE+"Insira o ",Fore.LIGHTGREEN_EX+"número",Fore.WHITE+" que você deseja ",Fore.LIGHTRED_EX+"banir",Fore.WHITE+" permantentemente do App ",Fore.LIGHTGREEN_EX+"WhatsApp",Fore.WHITE+", logo em seguida, insira a quantidade de denúncias que você deseja enviar para o ""número"", lembrando que quanto maior a quantidade de denúncias enviadas, maior a change do ",Fore.LIGHTRED_EX+"banimento",Fore.WHITE+" acontecer, sugerimos de ",Fore.LIGHTGREEN_EX+"100",Fore.WHITE+" a ",Fore.LIGHTGREEN_EX+"150",Fore.WHITE+" denúncias, já é o bastante, e enquanto as denúncias irão surgindo, sugerimos que deixe o ",Fore.LIGHTGREEN_EX+"Terminal",Fore.WHITE+" de lado em segundo plano e vá fazer coisas que gerem entretenimento.")
-        print("")
-        print(Fore.WHITE+"insira o ",Fore.LIGHTGREEN_EX+"número",Fore.WHITE+" como diz no ",Fore.LIGHTGREEN_EX+"exemplo",Fore.WHITE+" a seguir: ",Fore.LIGHTGREEN_EX+"11 9 8002 8922")
-        print("")
-        mensagemopc1=f"Enviando"
-        mensagem3opc1=f"via"
-        mensagem4opc1=f"WhatsApp"
-        msg1opc1=f" denúncia"
-        msg2opc1=f" para"
-        numero = input("Insira o número aqui: ")
-        mensagem2opc1 = f"{numero}"
-        parte1 = Fore.LIGHTRED_EX + "Denúncia" + Fore.WHITE + " número"
-        parte2 = Fore.WHITE + " enviada com " + Fore.LIGHTGREEN_EX + "sucesso" + Fore.WHITE + "!"
-        print(Fore.WHITE + "Quantas vezes você deseja ", Fore.LIGHTRED_EX + "denúnciar", Fore.WHITE + " o ", Fore.LIGHTGREEN_EX + "número", Fore.WHITE + "?")
-
-        contador = 0
-        textocontador = f"{contador}"
-        limite = int(input("Insira aqui a quantidade: "))
-
-        while contador < limite:
-            clear_console()
-            print(Fore.LIGHTRED_EX+"---------------------------------------------------------------------")
-            print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-            print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-            
-            print(Fore.LIGHTRED_EX+"---------------------------------------------------------------------")
-            print(Fore.YELLOW + "Versão 1.0⚡️")
-            print("")
-            print(Fore.WHITE + "Enviando", Fore.LIGHTRED_EX + " denúncia", Fore.WHITE + " para o número", mensagem2opc1, Fore.WHITE + " via", Fore.LIGHTGREEN_EX + " WhatsApp.")
-            print()
-            print(parte1, textocontador, parte2)
-            contador += 1
-            textocontador = f"{contador}"
-            sleep(0.003)
-
-        clear_console()
-        print("")
-        print(Fore.LIGHTRED_EX+"---------------------------------------------------------")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠒⠋⠉⠉⠉⠉⠉⠙⠒⠦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠁⠀⠀⠀⣀⣀⣠⠤⠤⠤⠤⠤⣄⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡥⠴⠒⠊⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠀⡀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣷⣤⣀⠈⡆⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⣸⣿⣿⣶⣤⡀⠀⣴⣿⡟⢉⠀⠀⠀⠉⠀⢸⡀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠁⠀⢀⣩⡛⢿⠉⡍⠛⣷⣾⣿⣷⢤⠴⠷⢄⣇⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡧⢰⣿⣿⣿⠇⠀⣷⠀⠉⠉⠉⠉⠀⠀⠀⠸⢿⠥⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⢀⠀⢹⣦⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀⠀⢀⡀⢠⡀⢛⣁⣬⠆⠉⠉⣱⡿⡍⠀⢸⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣇⢺⣧⣀⣈⣿⣿⣿⣷⣤⣴⣶⡿⣻⠁⠀⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡎⢿⠛⠛⠛⣿⣾⣏⣩⠍⠀⡸⠃⠀⣰⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢮⡳⡌⠉⠻⣿⡿⠀⠀⠼⠁⢠⠞⡟⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⢄⠀⠀⣿⣿⠀⠀⢀⡜⠁⠚⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠈⠻⣗⠦⠽⠿⠤⠞⠁⠀⠀⠀⠀⣿⢷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠞⠁⣇⠀⠀⠈⠳⢄⡀⠀⠀⠀⠀⠀⠀⢀⡟⢸⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⢀⣀⡠⠤⠖⠒⠋⠉⡇⠀⠀⢹⡀⠀⠀⠀⠀⠙⠲⢤⡀⠀⢀⡴⠋⠀⢀⡇⠉⠲⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⣠⠤⠒⠋⠉⠀⠀⠀⠀⠀⠀⢰⣧⠀⠀⠈⣧⠀⠀⠀⠀⠀⠀⠀⡹⠓⠋⠲⡄⠀⠈⣧⠀⠀⠸⡍⠙⠲⠤⣄⣀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⡞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡿⠀⠀⠀⢻⡳⣄⠀⠀⠀⣠⠞⠀⠀⠀⠀⠘⣆⠀⣾⡄⠀⠀⠹⡄⠀⠀⠀⠈⠉⠒⢤⡀⠀")
-        print(Fore.WHITE + "⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡇⠀⠀⠀⠈⣇⠈⢣⡀⣰⢳⡀⠀⠀⠀⢀⡞⠉⠶⠁⢧⠀⠀⠀⢱⡀⠀⠀⠀⠀⠀⠀⢧⠀")
-        print(Fore.WHITE + "⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀⠀⠀⢸⡀⠀⠙⠇⠀⢹⠒⠒⠒⢯⠀⠀⠀⠀⢸⡀⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠘⣆")
-        print(Fore.WHITE + "⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠂⠀⠀⠸⠇⠀⠀⠀⠀⠟⠀⠀⠀⠈⠧⠀⠀⠀⠘⠇⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠻")
-        print(Fore.WHITE + "⠀⠀⠀⠁⠁⠀⠁⠀⠀⠀⠀⠈⠀⠀⠀⠈⠉⠉⠋⠉⠉⠉⠉⠁⠉⠉⠀⠉⠈⠁⠉⠉⠛⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠀⠈⠀⠀")
-        print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-        print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-        
-        print(Fore.YELLOW + "Versão 1.0⚡️")
-        print("")
-        print(Fore.WHITE+"Todas as ",Fore.LIGHTRED_EX+"denúncias",Fore.WHITE+" foram enviadas com ",Fore.LIGHTGREEN_EX+"sucesso",Fore.WHITE+"!")
-        sleep(2.5)
-    elif opcao == "2":
-        clear_console()
-        print(Fore.LIGHTRED_EX+"──▄█████████████████████████▄──")
-        print(Fore.LIGHTRED_EX+"▄█▀░░░░░░░░░░░░░░░░░░░░░░░░░▀█▄")
-        print(Fore.LIGHTRED_EX+"█░░░█░█░█░░░░░░░░░░░░░░▄███▄░░█")
-        print(Fore.LIGHTRED_EX+"█░░░█░█░█░░░░░░░░░░░░░░▀███▀░░█")
-        print(Fore.LIGHTRED_EX+"█░░░░░░░░░▄▄▄█████▄▄▄░░░░░░░░░█")
-        print(Fore.LIGHTRED_EX+"███████████▀▀░░░░░▀▀███████████")
-        print(Fore.LIGHTRED_EX+"█░░░░░░░██░░▄█████▄░░██░░░░░░░█")
-        print(Fore.LIGHTRED_EX+"█░░░░░░░██░██▀░░░▀██░██░░░░░░░█")
-        print(Fore.LIGHTRED_EX+"█░░░░░░░██░██▄░░░▄██░██░░░░░░░█")
-        print(Fore.LIGHTRED_EX+"█░░░░░░░██▄░▀█████▀░▄██░░░░░░░█")
-        print(Fore.LIGHTRED_EX+"█░░░░░░░░▀██▄▄░░░▄▄██▀░░░░░░░░█")
-        print(Fore.LIGHTRED_EX+"█░░░░░░░░░░▀▀█████▀▀░░░░░░░░░░█")
-        print(Fore.LIGHTRED_EX+"▀█▄░░░░░░░░░░░░░░░░░░░░░░░░░▄█▀")
-        print(Fore.LIGHTRED_EX+"──▀█████████████████████████▀──")
-        print("")
-        print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-        print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-        
-        print(Fore.YELLOW + "Versão 1.0⚡️")
-        print("")
-        print(Fore.LIGHTBLUE_EX+"Como usar:")
-        print(Fore.WHITE+"Insira o ",Fore.LIGHTGREEN_EX+"@usuário",Fore.WHITE+" que você deseja ",Fore.LIGHTRED_EX+"banir",Fore.WHITE+" permantentemente do App ",Fore.LIGHTRED_EX+"InstaGram",Fore.WHITE+", logo em seguida, insira a quantidade de denúncias que você deseja enviar para o ",Fore.LIGHTGREEN_EX+"@usuário",Fore.WHITE+", lembrando que quanto maior a quantidade de denúncias enviadas, maior a change do ",Fore.LIGHTRED_EX+"banimento",Fore.WHITE+" acontecer, sugerimos de ",Fore.LIGHTGREEN_EX+"100",Fore.WHITE+" a ",Fore.LIGHTGREEN_EX+"150",Fore.WHITE+" denúncias, já é o bastante, e enquanto as denúncias irão surgindo, sugerimos que deixe o ",Fore.LIGHTGREEN_EX+"Terminal",Fore.WHITE+" de lado em segundo plano e vá fazer coisas que gerem entretenimento.")
-        print("")
-        print(Fore.WHITE+"insira o ",Fore.LIGHTGREEN_EX+"@usuário",Fore.WHITE+" como diz no ",Fore.LIGHTGREEN_EX+"exemplo",Fore.WHITE+" a seguir: ",Fore.LIGHTGREEN_EX+"@usuário")
-        print("")
-        mensagemopc1=f"Enviando"
-        mensagem3opc1=f"via"
-        mensagem4opc1=f"InstaGram"
-        msg1opc1=f" denúncia"
-        msg2opc1=f" para"
-        usuario = input("Insira o usuário aqui: ")
-        mensagem2opc1 = f"{usuario}"
-        parte1 = Fore.LIGHTRED_EX + "Denúncia" + Fore.WHITE + " número"
-        parte2 = Fore.WHITE + " enviada com " + Fore.LIGHTGREEN_EX + "sucesso" + Fore.WHITE + "!"
-        print(Fore.WHITE + "Quantas vezes você deseja ", Fore.LIGHTRED_EX + "denúnciar", Fore.WHITE + " o ", Fore.LIGHTGREEN_EX + "usuário", Fore.WHITE + "?")
-
-        contador = 0
-        textocontador = f"{contador}"
-        limite = int(input("Insira aqui a quantidade: "))
-
-        while contador < limite:
-            clear_console()
-            print(Fore.LIGHTRED_EX+"---------------------------------------------------------------------")
-            print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-            print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-            
-            print(Fore.LIGHTRED_EX+"---------------------------------------------------------------------")
-            print(Fore.YELLOW + "Versão 1.0⚡️")
-            print("")
-            print(Fore.WHITE + "Enviando", Fore.LIGHTRED_EX + " denúncia", Fore.WHITE + " para o usuário", mensagem2opc1, Fore.WHITE + " via", Fore.LIGHTRED_EX + " InstaGram.")
-            print()
-            print(parte1, textocontador, parte2)
-            contador += 1
-            textocontador = f"{contador}"
-            sleep(0.003)
-
-        clear_console()
-        print("")
-        print(Fore.LIGHTRED_EX+"---------------------------------------------------------")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠒⠋⠉⠉⠉⠉⠉⠙⠒⠦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠁⠀⠀⠀⣀⣀⣠⠤⠤⠤⠤⠤⣄⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡥⠴⠒⠊⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠀⡀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣷⣤⣀⠈⡆⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⣸⣿⣿⣶⣤⡀⠀⣴⣿⡟⢉⠀⠀⠀⠉⠀⢸⡀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠁⠀⢀⣩⡛⢿⠉⡍⠛⣷⣾⣿⣷⢤⠴⠷⢄⣇⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡧⢰⣿⣿⣿⠇⠀⣷⠀⠉⠉⠉⠉⠀⠀⠀⠸⢿⠥⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⢀⠀⢹⣦⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀⠀⢀⡀⢠⡀⢛⣁⣬⠆⠉⠉⣱⡿⡍⠀⢸⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣇⢺⣧⣀⣈⣿⣿⣿⣷⣤⣴⣶⡿⣻⠁⠀⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡎⢿⠛⠛⠛⣿⣾⣏⣩⠍⠀⡸⠃⠀⣰⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢮⡳⡌⠉⠻⣿⡿⠀⠀⠼⠁⢠⠞⡟⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⢄⠀⠀⣿⣿⠀⠀⢀⡜⠁⠚⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠈⠻⣗⠦⠽⠿⠤⠞⠁⠀⠀⠀⠀⣿⢷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠞⠁⣇⠀⠀⠈⠳⢄⡀⠀⠀⠀⠀⠀⠀⢀⡟⢸⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⠀⠀⠀⠀⢀⣀⡠⠤⠖⠒⠋⠉⡇⠀⠀⢹⡀⠀⠀⠀⠀⠙⠲⢤⡀⠀⢀⡴⠋⠀⢀⡇⠉⠲⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⠀⣠⠤⠒⠋⠉⠀⠀⠀⠀⠀⠀⢰⣧⠀⠀⠈⣧⠀⠀⠀⠀⠀⠀⠀⡹⠓⠋⠲⡄⠀⠈⣧⠀⠀⠸⡍⠙⠲⠤⣄⣀⠀⠀⠀⠀⠀")
-        print(Fore.WHITE + "⡞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡿⠀⠀⠀⢻⡳⣄⠀⠀⠀⣠⠞⠀⠀⠀⠀⠘⣆⠀⣾⡄⠀⠀⠹⡄⠀⠀⠀⠈⠉⠒⢤⡀⠀")
-        print(Fore.WHITE + "⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡇⠀⠀⠀⠈⣇⠈⢣⡀⣰⢳⡀⠀⠀⠀⢀⡞⠉⠶⠁⢧⠀⠀⠀⢱⡀⠀⠀⠀⠀⠀⠀⢧⠀")
-        print(Fore.WHITE + "⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀⠀⠀⢸⡀⠀⠙⠇⠀⢹⠒⠒⠒⢯⠀⠀⠀⠀⢸⡀⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠘⣆")
-        print(Fore.WHITE + "⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠂⠀⠀⠸⠇⠀⠀⠀⠀⠟⠀⠀⠀⠈⠧⠀⠀⠀⠘⠇⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠻")
-        print(Fore.WHITE + "⠀⠀⠀⠁⠁⠀⠁⠀⠀⠀⠀⠈⠀⠀⠀⠈⠉⠉⠋⠉⠉⠉⠉⠁⠉⠉⠀⠉⠈⠁⠉⠉⠛⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠀⠈⠀⠀")
-        print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-        print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-        
-        print(Fore.YELLOW + "Versão 1.0⚡️")
-        print("")
-        print(Fore.WHITE+"Todas as ",Fore.LIGHTRED_EX+"denúncias",Fore.WHITE+" foram enviadas com ",Fore.LIGHTGREEN_EX+"sucesso",Fore.WHITE+"!")
-        sleep(2.5)
-    elif opcao == "3":
-        clear_console()
-        print("")
-        print(Fore.BLACK+"───────────",Fore.LIGHTRED_EX+"█████▒░█████░▒▒▒▒▒▒█████ ")
-        print(Fore.BLACK+"──────────",Fore.LIGHTRED_EX+"██▒▒▒▒██████████████▒▒▒██░ ")
-        print(Fore.BLACK+"─────────",Fore.LIGHTRED_EX+"██▒▒▒▒███▒██▒██▒▒█████▒░▒██ ")
-        print(Fore.BLACK+"─────────",Fore.LIGHTRED_EX+"█░▒▒▒██▒████████████▒█▒▒▒█░ ")
-        print(Fore.BLACK+"─────────",Fore.LIGHTRED_EX+"█▒▒▒▒██▒▒▒░▓▓▒░▓▒▒████▒▒██ ")
-        print(Fore.BLACK+"─────────",Fore.LIGHTRED_EX+"█▒▒▒▒██▒▒▒▒▒▒▒▒▒▒▒█▒█░▒████ ")
-        print(Fore.BLACK+"─────",Fore.LIGHTRED_EX+"███████████▒▒▒▒▒▒▒▒██████▒██▓▒███ ")
-        print(Fore.BLACK+"─────",Fore.LIGHTRED_EX+"██▒▒▒▒▒▒█████▒▒▒▒▒▒▒▒█████▒▒▒▒▒██ ")
-        print(Fore.BLACK+"───────",Fore.LIGHTRED_EX+"██▒▒▒▒▒▒▒▓██████▒▒▒▒▒██▒▒▒▒▒▒███ ")
-        print(Fore.BLACK+"────",Fore.LIGHTRED_EX+"█████▒▒▒▒▒▒▒▒▒▒████▒▒▒██▒▒▒▒▒▒███ ")
-        print(Fore.BLACK+"────",Fore.LIGHTRED_EX+"██▒▒▒███▒▒▒▒▒▒▒▒▒▒▓█████▒▒▒▒▒███ ")
-        print(Fore.BLACK+"────",Fore.LIGHTRED_EX+"███▒▒▒▒███▒▒▒▒▒▒▒▒▒▒▒███▓▒▒███ ")
-        print(Fore.BLACK+"──────",Fore.LIGHTRED_EX+"█████▒▒████▒▒▒▒▒▒▒▒▒▒█████ ")
-        print(Fore.BLACK+"─────────",Fore.LIGHTRED_EX+"████▒▒██████▒▒▒▒█████ ")
-        print(Fore.BLACK+"────────────",Fore.LIGHTRED_EX+"███▒▒██████████ ")
-        print(Fore.BLACK+"──────────────",Fore.LIGHTRED_EX+"████▓",Fore.BLACK+"──",Fore.LIGHTRED_EX+"█▓█ ")
-        print(Fore.BLACK+"────────────────────",Fore.LIGHTGREEN_EX+"████ ")
-        print(Fore.BLACK+"────────────────────",Fore.LIGHTGREEN_EX+"█░█",Fore.BLACK+"─────",Fore.LIGHTGREEN_EX+"█████████ ")
-        print(Fore.BLACK+"────────────────────",Fore.LIGHTGREEN_EX+"█▓█",Fore.BLACK+"───",Fore.LIGHTGREEN_EX+"█████████████ ")
-        print(Fore.BLACK+"──░",Fore.LIGHTGREEN_EX+"█████████",Fore.BLACK+"───────",Fore.LIGHTGREEN_EX+"████",Fore.BLACK+"──",Fore.LIGHTGREEN_EX+"██▓███▒▓████ ")
-        print(Fore.BLACK+"─",Fore.LIGHTGREEN_EX+"█████████████",Fore.BLACK+"─────",Fore.LIGHTGREEN_EX+"█░███████░██████ ")
-        print(Fore.BLACK+"───",Fore.LIGHTGREEN_EX+"████░▒███▒██",Fore.BLACK+"────",Fore.LIGHTGREEN_EX+"█▓██████████ ")
-        print(Fore.BLACK+"─────",Fore.LIGHTGREEN_EX+"█████▓▒█████",Fore.BLACK+"─",Fore.LIGHTGREEN_EX+"████ ")
-        print(Fore.BLACK+"─────────",Fore.LIGHTGREEN_EX+"██████████▓█ ")
-        print(Fore.BLACK+"──────────────────",Fore.LIGHTGREEN_EX+"█▓█",Fore.BLACK+"───=─",Fore.LIGHTGREEN_EX+"████▒█▓▒█ ")
-        print(Fore.BLACK+"─────────────────",Fore.LIGHTGREEN_EX+"█▓██",Fore.BLACK+"──",Fore.LIGHTGREEN_EX+"█████████████ ")
-        print(Fore.BLACK+"─────────────────",Fore.LIGHTGREEN_EX+"█▓█",Fore.BLACK+"──",Fore.LIGHTGREEN_EX+"██▒████░█████ ")
-        print(Fore.BLACK+"────────────────",Fore.LIGHTGREEN_EX+"██████████▒██████ ")
-        print(Fore.BLACK+"────────────────",Fore.LIGHTGREEN_EX+"█▓███████████ ")
-        print(Fore.BLACK+"───────────────",Fore.LIGHTGREEN_EX+"████ ")
-        print(Fore.BLACK+"───────────────",Fore.LIGHTGREEN_EX+"█▒█ ")
-        print(Fore.BLACK+"───────────────",Fore.LIGHTGREEN_EX+"███ ")
-        print("")
-        print(Fore.LIGHTRED_EX + "█▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-        print(Fore.LIGHTRED_EX + "█▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-        
-        print(Fore.YELLOW + "Versão 1.0⚡️")
-        print("")
-        print("")
-        print(Fore.WHITE+"█▀▀ █▀█ █▀▀ █▀▄ █ ▀█▀ █▀█ █▀   ▀█▀ █▀█ ▀█▀ ▄▀█ █ █▀   █▀█ ▄▀█ █▀█ ▄▀█ ",Fore.LIGHTGREEN_EX+"  █▀▀ █▀▀ █▄░█ █ █░█ █▀ █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█")
-        print(Fore.WHITE+"█▄▄ █▀▄ ██▄ █▄▀ █ ░█░ █▄█ ▄█   ░█░ █▄█ ░█░ █▀█ █ ▄█   █▀▀ █▀█ █▀▄ █▀█ ",Fore.LIGHTGREEN_EX+"  █▄█ ██▄ █░▀█ █ █▄█ ▄█ █▀█ █▀█ █▄▄ █░█ ██▄ █▀▄")
-        print("")
-        print("")
-        print(Fore.WHITE+"Meta a bater de ",Fore.LIGHTGREEN_EX+"doações",Fore.WHITE+" para a produção da versão ",Fore.LIGHTRED_EX+"2.0")
-        print("")
-        print(Fore.LIGHTYELLOW_EX+"██████╗░░███████╗",Fore.LIGHTGREEN_EX+"  ██████╗░░░░███████╗░█████╗░░█████╗░░░░░█████╗░░█████╗░")
-        print(Fore.LIGHTYELLOW_EX+"██╔══██╗██╔██╔══╝",Fore.LIGHTGREEN_EX+"  ╚════██╗░░░██╔════╝██╔══██╗██╔══██╗░░░██╔══██╗██╔══██╗")
-        print(Fore.LIGHTYELLOW_EX+"██████╔╝╚██████╗░",Fore.LIGHTGREEN_EX+"  ░░███╔═╝░░░██████╗░██║░░██║██║░░██║░░░██║░░██║██║░░██║")
-        print(Fore.LIGHTYELLOW_EX+"██╔══██╗░╚═██╔██╗",Fore.LIGHTGREEN_EX+"  ██╔══╝░░░░░╚════██╗██║░░██║██║░░██║██╗██║░░██║██║░░██║")
-        print(Fore.LIGHTYELLOW_EX+"██║░░██║███████╔╝",Fore.LIGHTGREEN_EX+"  ███████╗██╗██████╔╝╚█████╔╝╚█████╔╝╚█║╚█████╔╝╚█████╔╝")
-        print(Fore.LIGHTYELLOW_EX+"╚═╝░░╚═╝╚══════╝░",Fore.LIGHTGREEN_EX+"  ╚══════╝╚═╝╚═════╝░░╚════╝░░╚════╝░░╚╝░╚════╝░░╚════╝░")
-        print("")
-        print(Fore.WHITE+"Para ",Fore.LIGHTGREEN_EX+"doar",Fore.WHITE+", envie um ",Fore.LIGHTGREEN_EX+"pix",Fore.WHITE+" de qualquer valor para a conta ",Fore.LIGHTGREEN_EX+"*c2e26e64-d02e-4b0d-8bbc-5ce81ec752d0*")
-        print(Fore.WHITE+"Caso tenha ",Fore.LIGHTGREEN_EX+"doado",Fore.WHITE+", insira abaixo o ",Fore.LIGHTGREEN_EX+"ID de Transação",Fore.WHITE+", a confirmação de que a transação monetaria realmente ocorreu, evitando ",Fore.LIGHTRED_EX+"golpes",Fore.WHITE+".")
-        transacao = input("Insira aqui o ID de Transação: ")
-        print("")
-        print(Fore.WHITE+"Análise em andamento, pode demorar alguns minutos, horas ou dias, mas não passa de uma semana.")
-        sleep(2.5)
-    elif opcao == "0":
-        clear_console()
-        print(Fore.LIGHTWHITE_EX+"Voltando ao ",Fore.LIGHTBLUE_EX+"Menu Inicial",Fore.LIGHTWHITE_EX+"...")
-        sleep(2.5)
-        clear_console()
-        break
+# Função para limpar a tela
+def limpar_tela():
+    if os.name == 'posix':
+        os.system('clear')  # Limpar a tela em sistemas Unix/Linux
     else:
-        clear_console()
-        print(Fore.WHITE + "Opção ", Fore.RED + "invalida ", Fore.WHITE + "por favor, ", Fore.GREEN + "insira ", Fore.WHITE + "uma opção válida.")
-        sleep(3)
+        os.system('cls')    # Limpar a tela em sistemas Windows
+
+# Função para prever o próximo número secreto com base no histórico
+def prever_proximo_numero_secreto(historico):
+    if len(historico) < 2:
+        return random.uniform(1.0, 10.0)  # Se não houver histórico, faça uma previsão aleatória entre 1.00 e 10.00
+
+    # Exemplo de lógica simples: Use a média dos dois últimos números secretos
+    ultimo_numero_secreto = historico[-1]
+    penultimo_numero_secreto = historico[-2]
+    proximo_numero_secreto = (ultimo_numero_secreto + penultimo_numero_secreto) / 2.0
+
+    return proximo_numero_secreto
+
+# Histórico de números secretos
+historico_numeros_secretos = []
+
+# Cores ANSI (pode não funcionar em todos os ambientes)
+COR_VERDE = "\033[32m"
+COR_RESET = "\033[0m"
+
+# Loop para interagir com o usuário e atualizar o histórico
+while True:
+    limpar_tela()  # Limpar a tela antes de cada print
+    print(COR_VERDE + "Histórico de resultados:", historico_numeros_secretos)
+    proxima_previsao = prever_proximo_numero_secreto(historico_numeros_secretos)
+    print("Próxima previsão: {:.2f}".format(proxima_previsao) + COR_RESET)
+    
+    try:
+        resultado_real = float(input(COR_VERDE + "Insira o resultado que caiu (formato 0.00): " + COR_RESET))
+        if resultado_real >= 1.0 and resultado_real <= 10.0:
+            historico_numeros_secretos.append(resultado_real)
+            
+    except ValueError:
+        print(COR_VERMELHA + "Entrada inválida. Insira um número no formato 0.00 (ex: 3.55)." + COR_RESET)
